@@ -1,8 +1,5 @@
 import { signInWithPopup, GoogleAuthProvider, getAuth } from'firebase/auth';
-import { initializeApp } from 'firebase/app';
-import firebaseConfig from './firebaseConfig.js'
 
-const app = initializeApp(firebaseConfig);
 const auth = getAuth();
 
 // This code runs inside of an iframe in the extension's offscreen document.
